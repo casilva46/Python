@@ -1,3 +1,9 @@
+"""
+Realiza uma consulta e extrai dados do portal de dados abertos do governo federal. 
+Realiza limpeza do data frame e disponibiliza os dados para análise. 
+
+"""
+
 import wget
 import zipfile
 import pandas as pd
@@ -9,8 +15,11 @@ sns.set()
 
 pd.set_option("display.max_rows", 1000)
 
+print()
+print('Acessando o Portal de dados abertos do governo federal')
+print()
 
-#Faz o Download do arquivo 
+#Faz o Download do arquivo .zip direto do portal de dados abertos
 
 url = 'https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2024-01.zip'
  
@@ -19,11 +28,9 @@ file_Path = 'Download_anl_comb_1_2024.zip'
 wget.download(url, file_Path)
 
 print()
-print('download terminado')
+print('Download concluído com sucesso')
 print()
 print('=============================================================================================================================================================')
-
-
 
 ## extração do arquivo Download_anl_comb_1_2024.zip
 
@@ -63,14 +70,6 @@ print(df)
 print('Substuindo as virgulas por pontos')
 print()
 
-#def remove_virgula(x):
-#    try:
-#        x = str(x).replace(',', '.')
-#        return float(x)
-#    except:
-#        return np.NaN
-    
-#df['Valor de Venda'] = df['Valor de Venda'].map(remove_virgula)
 
 # Excluindo as colunas desnecessárias para a nossa análise
 
