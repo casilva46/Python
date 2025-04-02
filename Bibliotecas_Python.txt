@@ -1,0 +1,101 @@
+# Lista com as principais bibliotecas Python 
+
+    As bibliotecas Python são pacotes de códigos prontos que podem ser exportados para utilização em diferentes projetos, o que evita que um desenvolvedor precise criar todo o código do zero.
+
+1. Django
+Django é um framework ou conjunto de bibliotecas completo e robusto que oferece uma ampla gama de recursos e funcionalidades essenciais para o desenvolvimento web. Inclui um ORM (Object-Relational Mapping) integrado, administração automática, suporte para templates e mais.
+
+2. Requests
+É uma biblioteca simples para a realização de requisições HTTP em Python. Facilita a comunicação com APIs e serviços web quando informações precisam ser requisitadas ou enviadas para um site.
+
+3. Flask
+Assim como o Django, o Flask também é um conjunto de bibliotecas. É caracterizado por ser leve e flexível, ideal para a construção de aplicações web simples e APIs. Permite maior liberdade e flexibilidade no momento de desenvolver uma aplicação.
+
+4. FastAPI
+Framework moderno e de alto desempenho, o FastAPI é ideal para o desenvolvimento de APIs web que utilizam tipagem estática Python, oferecendo uma experiência mais produtiva e segura no processo de desenvolvimento. Além disso, oferece suporte para a geração automática de documentação interativa e validação de dados.
+
+# Bibliotecas Python para ciência de dados / Visualização de Dados e Dashboards
+
+    Existem diversas bibliotecas e frameworks com ferramentas, algoritmos e recursos para análise e modelagem que são muito utilizados para ciência de dados e inteligência artificial em Python. 
+
+5. NumPy
+NumPy é considerada uma biblioteca fundamental para todos que trabalham com computação numérica em Python, já que essa ferramenta permite que se trabalhe com tratamento de dados. Oferece suporte a arrays multidimensionais e funções matemáticas essenciais para operações numéricas eficientes.
+
+6. SciPy
+SciPy (Python Científico) é um conjunto de algoritmos e funções baseadas na extensão NumPy do Python. É amplamente usado em cálculos científicos e técnicos, incluindo álgebra linear, algoritmos de otimização, resolução de equações diferenciais e a transformada de Fourier. As funcionalidades do SciPy incluem otimização, estatísticas e processamento de sinais.
+
+Essa biblioteca é comumente utilizada para computação científica e técnica, projetado para operar com arrays NumPy. Ela fornece rotinas numéricas eficientes e fáceis de usar, além de ser gratuita.
+
+7. Pandas
+Essencial para quem trabalha com ciência de dados, essa biblioteca é utilizada para manipulação de dados estruturados, fornecendo estruturas de dados flexíveis, transformação e análise de dados.
+
+8. Matplolib
+Matplotlib é uma biblioteca de gráficos que oferece visualizações poderosas e atraentes. É amplamente empregada em Python para a visualização de dados. Além disso, pode servir como substituta do MATLAB, com as vantagens de ser gratuita e de código aberto. Matplotlib é utilizada para criar visualizações estáticas, animadas e interativas em Python, gerar figuras com qualidade de publicação, disponibilizar uma ampla gama de gráficos e diagramas.
+
+9. Seaborn
+Seaborn é uma biblioteca de visualização de dados em Python baseada no Matplotlib. É uma biblioteca para criar gráficos estatísticos em Python. Seaborn integra-se intimamente com estruturas de dados do pandas. Seaborn é usado para explorar e compreender seus dados, criando visualizações bonitas e intuitivas. Suas características incluem interface de alto nível para desenhar gráficos estatísticos, além de ser considerada uma atualização da biblioteca Matplotlib, pois utiliza temas atraentes para plotar gráficos do Matplotlib. Integra-se estreitamente com as estruturas de dados do Pandas.
+
+# Bibliotecas Python para inteligência artificial
+
+10. PyTorch
+Biblioteca de aprendizado de máquina de código aberto desenvolvida, a PyTorch oferece suporte para construção e treinamento de modelos de aprendizado profundo, utilizando uma abordagem dinâmica para o desenvolvimento de modelos de inteligência artificial.
+
+11. TensorFlow
+Biblioteca de código aberto voltada para a criação de modelos de inteligência artificial. É uma plataforma flexível e escalável para desenvolvimento, treinamento e implementação de modelos de deep learning.
+
+12. Keras
+Keras é uma biblioteca popular amplamente usada para módulos de aprendizado profundo e redes neurais (semelhante ao TensorFlow).  Keras suporta vários backends, como o TensorFlow, e atua como uma interface para a biblioteca TensorFlow. Suas características incluem o desenvolvimento de módulos de aprendizado profundo e redes neurais, uma abordagem minimalista e modular. Empresas como Google, Netflix, Huawei e Uber estão atualmente usando o Keras, que funciona perfeitamente tanto na CPU quanto na GPU.
+
+13. OpenCV
+Biblioteca amplamente utilizada para visão computacional e processamento de imagens. Oferece uma vasta gama de funcionalidades e algoritmos para análise, processamento e manipulação de imagens e vídeos.
+
+14. Scikit-learn
+Scikit-learn é uma biblioteca de aprendizado de máquina com código aberto projetada para ser simples e facilitar a implementação de algoritmos de aprendizado de máquina para tarefas como clustering, regressão e redução de dimensionalidade.
+
+# Bibliotecas Python para automação e scripting
+
+    Para auxiliar na automação e scripting em Python existem diversas bibliotecas e frameworks. Eles são responsáveis por facilitar a execução de tarefas, a interação com sistemas e também auxiliar no desenvolvimento de scripts para automação de processos. 
+
+15. Selenium
+Selenium é uma biblioteca focada em automação e navegação web e testes em browsers. Permite a automatização de processos em sites, interação com páginas web, preenchimento de formulários, realização de cliques, entre outras ações de automação.
+
+16. BotCity
+BotCity é uma plataforma de desenvolvimento e orquestração para RPA em Python, que combina múltiplas tecnologias, como manipulações de código em Python, visão computacional e orquestração, como filas de robôs em Python, datapools e dashboards de automações. A BotCity fornece um assistente de código para gerar códigos automaticamente conforme ações do desenvolvedor RPA na UI. Além disso, é multiplataforma e opera em qualquer ambiente de desenvolvimento integrado (IDE), como VSCode, e permite desenvolver automações em código em diferentes ambientes – VM, containers, desktop etc. O orquestrador BotCity possibilita fazer a orquestração de automações Python em qualquer framework: Selenium, PyAutoGUI, Robot, TagUI, etc e possui bibliotecas próprias para automações web e desktop, e mais de 30 plugins para casos de uso comuns em RPA.
+
+17. Scrapy
+Focada em raspagem de dados (web scraping), ou seja, extração de informações de websites para seu código Python. É um framework de código aberto amplamente utilizado para a construção de spiders web que coletam informações e armazenam os dados em formatos estruturados.
+
+18. Pyautogui
+Biblioteca para automação de tarefas de Interface Gráfica do Usuário (GUI) em sistemas operacionais, como macOS, Windows e Linux, permite a simulação de ações de mouse, teclado e captura de imagens de tela.
+
+19. PyODBC
+A PyODBC fornece uma interface de programação para conectar-se com banco de dados utilizando o Open Database Connectivity (ODBC) que é uma API padrão que permite que aplicativos se comuniquem a bancos de dados relacionais, independentemente do sistema de gerenciamento.
+
+20. Paramiko
+Biblioteca para automação de operações em sistemas remotos via Secure Shell (SSH), permite a execução de comandos, transferência de arquivos e gerenciamento de sistemas de forma automatizada.
+
+# Bibliotecas Python para criação de interface gráfica
+
+    Para auxiliar na criação de interfaces gráficas em Python, existem várias bibliotecas e frameworks que facilitam o desenvolvimento de aplicações com interfaces de usuário interativas e atraentes. Confira algumas opções:
+
+21. Tkinter
+Biblioteca padrão em Python com foco na criação de interfaces gráficas sem tantos recursos. Simples de usar para o desenvolvimento de aplicações básicas e intermediárias. Conta com widgets pré definidos e fácil integração.
+
+22. Kivy
+Framework Python para desenvolvimento de aplicações multi-touch e interfaces gráficas com suporte para entrada de toque e gestos. Os códigos desenvolvidos no Kivy podem ser rodados em qualquer plataforma, Linux, macOS e Android, por exemplo.
+
+23. Dear PyGui
+Voltado para o desenvolvimento de aplicações rápidas e simples em Python, o Dear PyGui foi projetado para ser fácil de usar e apresenta alta eficiência em termos de desempenho.
+
+# AWS
+
+24. Boto3
+O Boto3 é uma biblioteca Python que permite criar aplicações e automatizar tarefas na AWS. Ele é o Software Development Kit (SDK) oficial da Amazon para Python. 
+
+24. wget 
+A biblioteca wget para Python é uma ferramenta que permite fazer downloads de arquivos da web. O wget é um utilitário de linha de comando que suporta vários protocolos de internet, como HTTP, HTTPS e FTP. 
+
+25. Zipfile
+A biblioteca zipfile do Python é um módulo que permite criar, ler, escrever, adicionar e listar arquivos ZIP. Ela também permite descriptografar arquivos criptografados dentro de um ZIP.
+
+
